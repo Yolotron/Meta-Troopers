@@ -43,7 +43,8 @@ html {
 }
 body {
 	font-family: $font-primary;
-	background: $white;
+	background-image: image("/back.Png");
+	background: $white/;
 	font-size: 16px;
 	line-height: 1.8;
 	font-weight: 400;
