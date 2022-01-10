@@ -43,8 +43,7 @@ html {
 }
 body {
 	font-family: $font-primary;
-	background-image: image("/back.Png");
-	background: $white/;
+	background: $white;
 	font-size: 16px;
 	line-height: 1.8;
 	font-weight: 400;
@@ -341,9 +340,13 @@ h1, h2, h3, h4, h5,
 			position: relative;
 			z-index: 1;
 		}
+		mb-4{
+			color: #f50c0c;}
+
+
 		h1 {
 			font-size: 54px;
-			color: $white;
+			color: $Red;
 			line-height: 1.2;
 			font-weight: 400;
 			span{
@@ -358,7 +361,7 @@ h1, h2, h3, h4, h5,
 			}
 		}
 		p {
-			color: rgba(255,255,255,.8);
+			color: rgba(228, 5, 5, 0.8);
 			font-weight: 400;
 			.number{
 				color: $secondary;
